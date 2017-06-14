@@ -23,3 +23,6 @@ twbs:bootstrap
 accounts-ui
 accounts-password
 react-meteor-data
+practicalmeteor:mocha
+xolvio:cleaner
+johanbrook:publication-collector

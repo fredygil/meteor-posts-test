@@ -50,9 +50,10 @@ class App extends Component {
 
 
 export default createContainer(() => {
+    Meteor.subscribe('posts');
     return {    
         /* Posts sorted by date */  
-        posts: Posts.find({}, {sort: {createdAt: 1}}).fetch(),
+        posts: Posts.find({}).fetch(),
         /* Logged in user */
         currentUser: Meteor.user()
     };
