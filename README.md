@@ -3,7 +3,7 @@
 This little project is a Meteor app for posting messages to the system. It uses React and Bootstrap and was developed with version 1.5. 
 
 
-- [Publication Collector](#meteor-posts-test)
+- [Meteor Posts Test](#meteor-posts-test)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Tests](#tests)
